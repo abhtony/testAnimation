@@ -1,0 +1,35 @@
+@media screen and (min-width: 992px) {
+  .font-title {
+    font-size: 34.5px;
+  }
+
+  h2 {
+    font-size: 1.509375em;
+  }
+
+  .standard-p p {
+    width: 368px;
+  }
+
+  .standard-p ul {
+    width: 368px;
+  }
+
+  .font-main-title {
+    font-size: 34.5px;
+  }
+
+  .font-subtitle {
+    font-size: 24.15px;
+  }
+
+  .font-subtitle-caption {
+    font-size: 20.7px;
+  }
+
+  .text-emphasis {
+    font-size: 41.4px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

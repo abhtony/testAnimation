@@ -1,0 +1,247 @@
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+/*FLEX CONTAINER SETTINGS*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+/*gengeral container*/
+.container-general {
+  display: block;
+  /*margin: 0px 5px;*/
+}
+
+/*containers for rows*/
+.container-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/*containers that have overflowing contents*/
+.container-flow {
+  flex-flow: row wrap;
+}
+
+/*=-=-=-=-*/
+/*sections within containers*/
+/*.section-w1 {*/
+/*    width: 8.333333333%;*/
+/*}*/
+/*.section-w2 {*/
+/*    width: 16.666666666%;*/
+/*}*/
+/*.section-w3 {*/
+/*    width: 25%;*/
+/*}*/
+/*.section-w4 {*/
+/*    width: 33.333333333%;*/
+/*}*/
+/*.section-w5 {*/
+/*    width: 41.666666666%;*/
+/*}*/
+/*.section-w6 {*/
+/*    width: 50%;*/
+/*}*/
+/*.section-w7 {*/
+/*    width: 58.333333333%;*/
+/*}*/
+/*.section-w8 {*/
+/*    width: 66.666666666%;*/
+/*}*/
+/*.section-w9 {*/
+/*    width: 75%;*/
+/*}*/
+/*.section-w10 {*/
+/*    width: 83.333333333%;*/
+/*}*/
+/*.section-w11 {*/
+/*    width: 91.666666666%;*/
+/*}*/
+/*.section-w12 {*/
+/*    width: 100%;*/
+/*}*/
+/*=-=-=-=-*/
+/*Margin spacings*/
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-75 {
+  margin-top: 75px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-35 {
+  margin-top: 35px;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-top--5 {
+  margin-top: -5px;
+}
+
+.margin-top--15 {
+  margin-top: -15px;
+}
+
+.margin-top--25 {
+  margin-top: -25px;
+}
+
+.empty-15 {
+  height: 15px;
+}
+
+.empty-35 {
+  height: 35px;
+}
+
+.empty-50 {
+  height: 50px;
+}
+
+.empty-75 {
+  height: 75px;
+}
+
+.empty-100 {
+  height: 100px;
+}
+
+.empty-125 {
+  height: 125px;
+}
+
+.empty-150 {
+  height: 150px;
+}
+
+.empty-250 {
+  height: 250px;
+}
+
+.empty-300 {
+  height: 300px;
+}
+
+/*=-=-=-=-*/
+/*other margins settings*/
+.margin-horizontal-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-top-35-mobile {
+  margin-top: 35px;
+}
+
+.margin-top-75-mobile {
+  margin-top: 75px;
+}
+
+/*=-=-=-=-*/
+/*BREAKPOINT FOR TABLETS*/
+/*@media screen and (min-width: 992px) {*/
+/*    .margin-top-15-tablet {*/
+/*        margin-top: 15px;*/
+/*    }*/
+/*    .margin-top-35-tablet {*/
+/*        margin-top: 35px;*/
+/*    }*/
+/*    .margin-top-35-mobile {*/
+/*        margin-top: 0px; */
+/*    }*/
+/*    .margin-top-75-mobile {*/
+/*        margin-top: 0px; */
+/*    }*/
+/*}*/
+/*=-=-=-=-*/
+/*BREAKPOINT FOR TABLETS*/
+@media screen and (min-width: 992px) {
+  /*=-=-=-=-*/
+  /*Margin spacings - increase by 20%*/
+  .margin-top-100 {
+    margin-top: 140px;
+  }
+
+  .margin-top-75 {
+    margin-top: 105px;
+  }
+
+  .margin-top-50 {
+    margin-top: 70px;
+  }
+
+  .margin-top-35 {
+    margin-top: 49px;
+  }
+
+  .margin-top-25 {
+    margin-top: 35px;
+  }
+
+  .margin-top-15 {
+    margin-top: 21px;
+  }
+
+  .margin-top-5 {
+    margin-top: 7px;
+  }
+
+  .margin-top--5 {
+    margin-top: -7px;
+  }
+
+  .margin-top--15 {
+    margin-top: -21px;
+  }
+
+  .margin-top--25 {
+    margin-top: -35px;
+  }
+
+  .empty-15 {
+    height: 21px;
+  }
+
+  .empty-35 {
+    height: 49px;
+  }
+
+  .empty-50 {
+    height: 70px;
+  }
+
+  .empty-75 {
+    height: 105px;
+  }
+
+  .empty-100 {
+    height: 140px;
+  }
+
+  .empty-150 {
+    height: 210px;
+  }
+
+  .empty-250 {
+    height: 350px;
+  }
+
+  .empty-300 {
+    height: 420px;
+  }
+}
+
+/*# sourceMappingURL=grid-style.css.map */

@@ -1,0 +1,35 @@
+@media screen and (min-width: 992px) {
+    $tablet-modifier: 1.15;
+    
+    .font-title {
+      font-size: 30px*$tablet-modifier;
+    }
+    
+    h2 {
+        font-size: 1.3125em*$tablet-modifier;
+    }
+    
+    .standard-p p {
+        width: 320px*$tablet-modifier;
+    }
+    
+    .standard-p ul {
+        width: 320px*$tablet-modifier;
+    }
+    
+    .font-main-title {
+        font-size: 30px*$tablet-modifier;
+    }
+    
+    .font-subtitle {
+        font-size: 21px*$tablet-modifier;
+    }
+    
+    .font-subtitle-caption {
+        font-size: 18px*$tablet-modifier;
+    }
+    
+    .text-emphasis {
+        font-size: 36px*$tablet-modifier;
+    }
+}
