@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 
 function render_animation () {
-    ajax_call("/test/animation/viruses.json", 30, 100, 100, "viruses-animation");
+    ajax_call("test/animation/viruses.json", 30, 100, 100, "viruses-animation");
 }
 
 
